@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+#profile_pic{
+	width: 150px;
+	min-height: 150px;
+	/*background-color: red;*/
+	float: left;
+	margin-bottom: 20px;
+}
+
+#profile_data{
+	float: left;
+	margin: -22px 0px 5px 15px;
+}
+
+#profile_data hr{
+	margin: 0px 0px 10px 0px;
+}
+
+#fees_overview_chart{
+	float: left;
+	/*display: none;*/
+}
+
+#fees_overview_chart2{
+	float: right;
+	/*display: none;*/
+}
